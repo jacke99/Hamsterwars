@@ -1,0 +1,33 @@
+.hamster-wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+}
+
+.hamster-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.hamster-img {
+    width: 12em;
+    height: 12em;
+    object-fit: cover;
+    border: 1px solid black;
+    border-radius: 1em;
+}
+
+.vote-btn {
+    border: 1px solid black;
+    border-radius: 5em;
+    color: #111;
+    background-color: #cdcaca;
+    width: 4em;
+    text-align: center;
+    padding: .5em;
+}
